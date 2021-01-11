@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- スクロールしたらふわっと出てくる用 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+  <style>
+    body {
+      background: repeating-linear-gradient(0deg,
+        #ffffff,
+        #ffffff 40px,
+        #dedede 40px,
+        #dedede 80px);
+    }
+    .animated {
+      /* 最初から非表示 */
+      opacity: 0;
+    }
+  </style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='FUMIAKI TERASHI ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='FUMIAKI TERASHIのポートフォリオサイトです！'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="FUMIAKI TERASHIのポートフォリオサイトです！" />
+  <title>FUMIAKI TERASHI ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
+  <link rel="stylesheet" href="animate.css">
+
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      
+    
+      <h1 class="logo">
+      <div class="img-wrap">  
+        <div class="logo-title">FUMIAKI TERASHI</div>
+      </div>
+      <div class="img-wrap2">
+        <div class="logo-subtitle">PORTFOLIO<br><br></div>
+      </div>
+      </h1>
+      
+    
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+
+      <!-- .works-section -->
+     
+      <section class="works-section section" id="works-section">
+        
+        <div class="inner">
+          <div class="section-heading">
+            <div class="animated">
+            <h2 class="heading-primary">WORKS</h2>
+            </div>
+          </div>
+          <div class="animated">
+          <div class="section-lead">
+            <p>Web制作の記録です。<br>現在、実務未経験のため、学習過程で作成したWebアプリケーション、Webサイト、デザインを公開しています。</p>
+          </div>
+        </div>
+        <div class="animated">
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/hairsalon.jpg" data-size="960x720"
+                  class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
+                    data-src="img/works/hairsalon.jpg" alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design / Coding(Responsive) </div>
+                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+          
+              <figure class="works-item">
+                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">サイト名が入る</div>
+                  <div class="works-text">Design</div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
+                    alt="サイト画像" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">みんなの豆知識</div>
+                  <div class="works-text">Ruby on Railsで作成した豆知識共有Webアプリケーション</div>
+                  <div class="works-url"><a class="works-url-link" href="https://message-20201123.herokuapp.com/" target="_blank">-LINK-</a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </section>
+    
+      <!-- /.works-section -->
+
+      <!-- .feature-section -->
+      <section class="feature-section section" id="feature-section">
+        <div class="inner">
+          <div class="section-heading">
+            <div class="animated">
+            <h2 class="heading-primary">FEATURE</h2>
+            </div>
+          </div>
+          <div class="section-lead">
+            <div class="animated">
+            <p>
+              １サイトの解説
+            </p>
+            </div>
+          </div>
+          <div class="animated">
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <a href="https://www.yahoo.co.jp/" target="_blank" class="hover-action"><img clas="feature-image"
+                    src="img/feature/feature.jpg" alt=""></a>
+              </div>
+              <div class="feature-body">
+                <p>
+                  <span class="text-bold">サイト名：</span><br>サイト名が入る<br><a href="#" target="_blank">https://●●●.com</a></p>
+                <p><span class="text-bold">担当：</span><br>Design / Coding (Responsive) / WordPress / Writing</p>
+                <p><span
+                    class="text-bold">コメント：</span><br>テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+                <p>
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- /.feature-section -->
+
+      <!-- .about-section -->
+      
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <div class="animated">
+            <h2 class="heading-primary">ABOUT</h2>
+            </div>
+          </div>
+          <div class="section-lead">
+            <div class="animated">
+            <p>
+              寺師史晃（てらしふみあき）です。よろしくお願いします！
+            </p>
+            </div>
+          </div>
+          <div class="animated">
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/profile.png" alt="">
+              </div>
+              <div class="about-body">
+                
+                <h6>【略歴】</h6>
+                <p>
+                    1993年12月7日生 27歳。鹿児島大学 教育学部 体育科 を卒業し、福岡市で2年、鹿児島県で3年、小学校教員として勤務。現在、薩摩川内市の小学校で6年生を担任。
+                </p>       
+                <h6>【理由】</h6>
+                <p>
+                    「時代の最先端をゆくWeb業界で新たなチャレンジがしたい！」という思いから、Web系の仕事を目指すようになり、2020年11月より学習開始！
+                </p>
+                <h6>【趣味/性格】</h6>
+                <p>
+                 旅行や登山などアウトドアが好きで、海外まで飛んでいきます。「気になることはとことん追求、そして常に新たなことに挑戦し続ける！」そんな性格です。
+                </p>
+                 <h6>【資格】</h6>
+                <p>
+                  小学校/中学/高校/保健体育教員免許 2級船舶免許 狩猟免許（銃,網,罠） 危険物乙種4類 TOEIC:525 農業検定3級 漢字検定2級 大型二輪免許 オープンウォーターダイバーライセンス この経験はきっと何かに繋がり活きるはず！
+                </p>
+              
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
+      <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <div class="animated">
+            <h2 class="heading-primary">SKILL</h2>
+            </div>
+          </div>
+          <div class="section-lead">
+            <div class="animated">
+            <p>
+              毎日、学習中です！
+            </p>
+            </div>
+          </div>
+          <div class="animated">
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/html.png" alt="HTMLアイコン">
+                  <img class="skill-image" src="img/skill/css.png" alt="CSSアイコン">
+                  <img class="skill-image" src="img/skill/BootStrap.png" alt="bootstrapアイコン">
+                  
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5/CSS3/Bootstrap</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/JavaScript.png" alt="JavaScriptアイコン">
+                  <img class="skill-image" src="img/skill/jQuery.png" alt="">
+                  <img class="skill-image" src="img/skill/vue.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JavaScript/jQuery/Vue.js</h3>
+                  <div class="skill-rating rating">
+                   
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/Ruby.png" alt="rubyicon">
+                  <img class="skill-image" src="img/skill/Rails.png" alt="railsicon">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby/rails</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/git.png" alt="giticon">
+                  <img class="skill-image" src="img/skill/github.png" alt="githubicon">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Git/GitHub</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/wordpress.png" alt="wordpressicon">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">WordPress</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+              
+
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/Firebase.png" alt="Firebaseicon">
+                  <img class="skill-image" src="img/skill/mySQL.png" alt="mysqlicon">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Firebase/MySQL</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/irasuto.png" alt="Firebaseicon">
+                  <img class="skill-image" src="img/skill/photoshop.png" alt="mysqlicon">
+                  <img class="skill-image" src="img/skill/xd2.png" alt="mysqlicon">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Illustrator/Photoshop/XD</h3>
+                  <div class="skill-rating rating">
+                    
+                  </div>
+                  <p>
+                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            
+            <h2 class="heading-primary">CONTACT</h2>
+            
+          </div>
+          <div class="section-lead">
+            
+            <p>
+              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+            </p>
+            
+          </div>
+          <div class="section-body contact">
+            
+            <ul class="contact-list">
+              <li class="contact-item">
+                
+                
+                <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_tw.png" alt=""></a>
+                
+              </li>
+              <li class="contact-item">
+                
+                <a class="contact-link" href="https://www.facebook.com/" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_fb.png" alt=""></a>
+                
+              </li>
+            </ul>
+            
+            <div class="contact-text">karakaraponpon@gmail.com</div>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;FUMIAKI TERASHI. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+
+<!-- scrollでふわっと出す↓ -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
